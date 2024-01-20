@@ -1,0 +1,12 @@
+What is the Viterbi Algorithm? 
+The Viterbi algorithm is a dynamic programming algorithm that allows us to compute the most probable path or the most likely sequence of hidden states that results in a sequnce of observed events.
+
+The Viterbi Algorithm is a more efficint method of solving similar problems that can be solved using a Hidden Markov Model. 
+Hidden Markov Models are used to compute the most likely sequence of unobservable states that result in the observed state we see. The unobservable states are called hidden states.
+
+In a Hidden Markov Model there are transition probabilities which are the probabilities of a hidden state based on another hidden state. 
+Each hidden state then has an affect on the observed state and the probabilitty of observing an observed state given a hidden state is called the emission probability.
+
+The Hidden Markov Model should seem brute force. Inefficient is another word. 
+The Viterbi algorithm is what solves the Hidden Markov Model's straightforwardness and makes that process more efficient.
+
